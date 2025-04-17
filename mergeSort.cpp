@@ -12,5 +12,6 @@ void mergeSort (int low, int high);
 }
 int mid = {low + high} /2;
 
-mergeSort
+mergeSort {low,mid};
+mergeSort {mid+1, high};
 }
