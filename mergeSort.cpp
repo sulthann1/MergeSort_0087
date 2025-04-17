@@ -31,6 +31,14 @@ else
     B[k] = arr[j];
     j++;
 } 
+k++;
+}
+
+while (j <= high)
+{
+B[k] = arr [j];
+j++;
+k++;
 }
 
 
