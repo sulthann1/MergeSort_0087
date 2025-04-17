@@ -5,7 +5,6 @@ int arr [20], B[20]; //array utama dan array bantu
 int n;
 
 void input()
-void input()
 {
     while (true)
     {
@@ -36,12 +35,12 @@ void input()
 void mergeSort (int low, int high) {
     if (low >= high)
 { //step 1
-    return // step 1a
+    return; // step 1a
 }
-int mid = {low + high} //2;
+int mid = (low + high); //2
 
-mergeSort {low,mid};
-mergeSort {mid+1, high};
+mergeSort (low, mid);
+mergeSort (mid + 1, high);
 
 int i = low;
 int j, k;
@@ -77,9 +76,9 @@ while (i <= mid)
     k++;
 } 
 
-for (int x = low x<= high ; x++)
+for (int x = low; x<= high ; x++)
 {
-    arr[x] =B [X];
+    arr[x] =B [x];
 }
 
 }
@@ -95,7 +94,7 @@ void output ()
 }
 int main()
 {
-    input()
+    input();
     mergeSort(0, n-1);
     output();
     return 0;
