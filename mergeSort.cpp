@@ -77,5 +77,15 @@ while (i <= mid)
     k++;
 } 
 
+for (int x = low x<= high ; x++)
+{
+    arr[x] =B [X];
+}
 
+}
+
+void output ()
+{
+    cout << "\nData setelah diurutkan (Merge Sort):";
+    for (int i )
 }
